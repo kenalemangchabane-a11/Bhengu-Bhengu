@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/index.css">
+    <link rel="stylesheet" href="CSS/recommendations.css">
+    <title>Recommendations</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-success fixed-top text-body-teti">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html"> Bhengu Bhengu </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasNavbar"
+              aria-controls="offcanvasNavbar"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="offcanvas offcanvas-end"
+              tabindex="-1"
+              id="offcanvasNavbar"
+              aria-labelledby="offcanvasNavbarLabel"
+            >
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                  Bhengu Bhengu
+                </h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="offcanvas"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                  <li class="nav-item">
+                    <a
+                      class="nav-link active"
+                      aria-current="page"
+                      href="./index.html"
+                      >Home</a
+                    >
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="./about.html">About</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="./recommendations.html"
+                      >Recommendations</a
+                    >
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="./garden-form.html">Garden Form</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+    </header>
+    <main>
+        <nav class="summaries">
+            <a href="#drought">Drought</a>
+            <a href="#greenhouse-gardening">Greenhouse</a>
+            <a href="#soil">Soil</a>
+            <a href="#rainwater">Rainwater</a>
+        </nav>
+
+        <section id="drought" class="recommendation-section">
+            <h2>Drought Management</h2>
+            <p>Droughts have become increasingly frequent due to climate change, affecting small-scale farmers and rural communities. Prolonged periods without sufficient rainfall lead to crop failures, reduced livestock productivity, and water scarcity, threatening both food security and household income.</p>
+
+            <h3>Impacts</h3>
+            <ul>
+                <li>Reduced crop yields and failed harvests</li>
+                <li>Decreased livestock health and productivity</li>
+                <li>Soil degradation and loss of fertility</li>
+                <li>Increased food prices and economic hardship</li>
+                <li>Heightened community vulnerability and migration pressures</li>
+            </ul>
+
+            <h3>Mitigation Strategies</h3>
+            <ul>
+                <li>Planting drought-resistant crops and varieties</li>
+                <li>Mulching to retain soil moisture and reduce evaporation</li>
+                <li>Implementing rainwater harvesting systems and water storage</li>
+                <li>Promoting efficient irrigation techniques (drip irrigation, furrow irrigation)</li>
+                <li>Community awareness programs and early warning systems for drought preparedness</li>
+            </ul>
+
+            <h3>Long-Term Solutions</h3>
+            <p>Long-term drought management requires integrated approaches, including reforestation, soil regeneration, agroforestry, and collaboration between government, NGOs, and local communities. Building resilience ensures that rural gardens remain productive despite changing rainfall patterns.</p>
+        </section>
+
+
+        <!-- Greenhouse Gardening Section -->
+        <section id="greenhouse-gardening" class="recommendation-section">
+            <h2>Greenhouse Gardening</h2>
+            <p>Greenhouse gardening allows controlled growth environments for plants, extending seasons and improving yields.</p>
+            <h3>Types of Greenhouses</h3>
+            <ul>
+                <li>Cold Frame</li>
+                <li>Hoop House</li>
+                <li>Glass Greenhouse</li>
+                <li>Polycarbonate Structure</li>
+            </ul>
+            <h3>Benefits</h3>
+            <p>Protection from pests, better climate control, and year-round cultivation.</p>
+        </section>
+
+        <!-- Soil Section -->
+        <section id="soil" class="recommendation-section">
+            <h2>Understanding Soil Health</h2>
+            <p>Healthy soil supports biodiversity, retains water, and stores carbon—essential for sustainable agriculture.</p>
+            <h3>Indicators</h3>
+            <ul>
+                <li>Organic Matter</li>
+                <li>Soil Structure</li>
+                <li>pH Balance</li>
+                <li>Microbial Activity</li>
+            </ul>
+            <h3>Regeneration Techniques</h3>
+            <p>Composting, cover cropping, reduced tillage, and agroforestry are key practices.</p>
+        </section>
+
+        <!-- Rainwater Harvesting Section -->
+        <section id="rainwater" class="recommendation-section">
+            <h2>Rainwater Harvesting</h2>
+            <p>Rainwater harvesting captures and stores rain for reuse, reducing dependence on municipal water systems.</p>
+            <h3>System Components</h3>
+            <ul>
+                <li>Catchment Area</li>
+                <li>Conveyance System</li>
+                <li>Storage Tanks</li>
+                <li>Filtration & Treatment</li>
+            </ul>
+            <h3>Benefits</h3>
+            <p>Water conservation, reduced runoff, and lower utility costs.</p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 BHENGU BHENGU | All Rights Reserved</p>
+            <ul class="footer-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="recommendations.html">Recommendations</a></li>
+                <li><a href="garden-form.html">Garden Form</a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>

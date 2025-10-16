@@ -1,0 +1,15 @@
+p{
+    text-align: center;
+    color: darkgreen;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+}
+
+.calculator{
+    text-align: center;
+}
+
+input{
+    display: block;
+    margin: 0 auto;
+}
